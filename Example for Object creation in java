@@ -1,0 +1,26 @@
+package day1;
+class Cat
+{
+	String  name;
+	String breed;
+	int cost;
+}
+
+public class Catt {
+
+	public static void main(String[] args) {
+		Cat c = new Cat();
+		c.name = "Goluu";
+		c.breed ="persian";
+		c.cost = 25000;
+		
+		System.out.println(c.name);
+		System.out.println(c.breed);
+		System.out.println(c.cost);
+	}
+
+}
+output
+Goluu
+persian
+25000

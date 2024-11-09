@@ -1,0 +1,57 @@
+package day7;
+
+class Object
+{
+	
+}
+class jeonJ extends Object
+{
+	int x, y;
+	jeonJ()
+	{
+		x = 100;
+	    y = 200;
+	}
+	jeonJ(int x, int y)
+	{
+		this.x =x;
+		this.y = y;
+	}
+}
+class kimK extends jeonJ
+{
+	int a,  b;
+	kimK()
+	{
+		a = 300;
+		b = 400;
+	}
+	kimK(int a, int b)
+	{
+		super(a,b);
+		this.a = a;
+		this.b = b;
+	}
+	void display()
+	{
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(a);
+		System.out.println(b);
+	}
+	
+}
+public class ExampleForConstructorChaining {
+
+	public static void main(String[] args) {
+		kimK KJ = new kimK(9, 99);
+		KJ.display();
+
+	}
+
+}
+output
+9
+99
+9
+99

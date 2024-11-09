@@ -1,0 +1,33 @@
+package day1;
+
+public class ExampleForLargestNumbers {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 5;
+		int c = 11;
+		
+		if(a>=b && a>=c)
+		{
+	
+		 
+			 System.out.println(" a is greater");
+		}
+		else if(b>=a && b>=c) 
+		  {
+			  System.out.println(" b is "); 
+		  }
+		else 
+		{
+			System.out.println("c is greater");
+		}
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+output
+c is greater

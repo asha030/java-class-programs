@@ -1,0 +1,56 @@
+package day1;
+
+public class ConditionalStatements {
+
+	public static void main(String[] args) {
+		// if statements
+		
+		System.out.println("Start");
+		int n = 5;
+		
+		if(n<=10)
+		{
+			System.out.println(n  +  " is lesser than 10");
+		}
+			System.out.println("End");
+			System.out.println("======================");
+			// if else statement
+			int a = 10;
+			int b = 20;
+			if(a<=b)
+			{
+				System.out.println(a + "is lesser than or equal to " + b);
+			}
+			else
+			{
+				System.out.println(a + "is greater than or equal to " + b);
+			}
+			System.out.println("======================");
+			//if else if
+			int c = 10;
+			int d = 20;
+			if(c<d)
+			{
+				System.out.println(c + "is lesser than or equal to " + d);
+				
+			}
+			else if(c>d)
+			{
+				System.out.println(c + "is greater than or equal to " + d);
+			}
+			else
+			{
+				System.out.println(c + "is equals to" +d);
+			}
+			
+	}
+
+}
+output
+Start
+5 is lesser than 10
+End
+======================
+10is lesser than or equal to 20
+======================
+10is lesser than or equal to 20

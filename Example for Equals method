@@ -1,0 +1,23 @@
+package day1;
+
+public class ExampleForEqualsMethod {
+	int age;
+	
+	ExampleForEqualsMethod(int age)
+	{
+		this.age = age;
+	}
+
+	public static void main(String[] args) {
+		ExampleForEqualsMethod e = new  ExampleForEqualsMethod(20);
+		ExampleForEqualsMethod e1 = new ExampleForEqualsMethod(25);
+		
+		System.out.println(e == e1);
+		System.out.println(e.equals(e=e1));
+		
+	}
+
+}
+output
+false
+false

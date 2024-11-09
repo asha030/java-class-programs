@@ -1,0 +1,142 @@
+package day1;
+import java.util.Scanner;
+interface Caluclator
+{
+	void add();
+	void sub();	
+}
+class MyCaluclator implements Caluclator{
+	public void add()
+	{
+		int a = 20;
+		int b = 10;
+		int c = a+b;
+		System.out.println(c);
+	}
+	public void sub()
+	{
+		int a = 20;
+		int b = 10;
+		int c = a-b;
+		System.out.println(c);
+	}
+	
+}
+class MyCaluclator2 implements Caluclator{
+
+	public void add()
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println("enter the first number");
+		int a = s.nextInt();
+		System.out.println("enter the second number");
+		int b = s.nextInt();
+		int c = a+b;
+		System.out.println(c);		
+	}
+	public void sub()
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println("enter the first number");
+		int a = s.nextInt();
+		System.out.println("enter the second number");
+		int b = s.nextInt();
+		int c = a-b;
+		System.out.println(c);		
+	}
+	
+}
+class MyCaluclator3 implements Caluclator{
+
+	public void add()
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println("enter the first number");
+		int a = s.nextInt();
+		System.out.println("enter the second number");
+		int b = s.nextInt();
+		if(b==0)
+		{
+			System.out.println(" second number is zero");
+		}
+		else {
+			int c = a+b;
+			System.out.println(c);
+		}
+	}
+	
+		public void sub()
+		{
+			Scanner s = new Scanner(System.in);
+			System.out.println("enter the first number");
+			int a = s.nextInt();
+			System.out.println("enter the second number");
+			int b = s.nextInt();
+			if(b==0)
+			{
+				System.out.println(" second number is zero");
+			}
+			else {
+				int c = a-b;
+				System.out.println(c);
+				
+				
+				
+	
+         }
+		}
+}
+public class Demoo {
+	public static void main(String[] args) {
+		MyCaluclator m1 = new MyCaluclator();
+		MyCaluclator2 m2 = new MyCaluclator2();
+		MyCaluclator3 m3 = new MyCaluclator3();
+		
+		m1.add();
+		System.out.println("===============================");
+		m1.sub();
+		System.out.println("===============================");
+		
+		m2.add();
+		System.out.println("===============================");
+		m2.sub();
+		System.out.println("===============================");
+		
+		m3.add();
+		System.out.println("===============================");
+		m3.sub();
+		System.out.println("===============================");
+	}
+}
+
+output
+30
+===============================
+10
+===============================
+enter the first number
+
+10
+enter the second number
+5
+15
+===============================
+enter the first number
+
+10
+enter the second number
+5
+5
+===============================
+enter the first number
+90
+enter the second number
+80
+170
+===============================
+enter the first number
+90
+enter the second number
+43
+47
+===============================

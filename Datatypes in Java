@@ -1,0 +1,20 @@
+package day1;
+
+public class ExampleForDatatypes {
+	public static void main(String[]args) {
+	int age = 22;
+	double height = 5.5;
+	//converting byte to double
+	byte a  = 15;
+	double b;
+	b = a;
+	System.out.println(b);
+	System.out.println("age of student is " + age);
+	System.out.println("age of student is " + height);
+
+}
+}
+output
+15.0
+age of student is 22
+age of student is 5.5

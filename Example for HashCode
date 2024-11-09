@@ -1,0 +1,18 @@
+package day1;
+
+public class ExampleForHashcode {
+	public int hashcode()
+	{
+		return 123456;
+	}
+	
+
+	public static void main(String[] args) {
+		ExampleForHashcode e = new ExampleForHashcode();
+		System.out.println(e.hashcode());
+		
+	}
+
+}
+output
+123456

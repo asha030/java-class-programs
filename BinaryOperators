@@ -1,0 +1,81 @@
+package day1;
+
+public class ExampleForBinaryOperators {
+
+	public static void main(String[] args) {
+		//Arithmetic operator
+		int num1 = 25;
+		int num2 = 30;
+		int result = num1 + num2;
+		System.out.println("Sum of two numbers : " +result);
+		System.out.println("Difference of two numbers : " + (num1 - num2));
+		System.out.println("multiplication of two numbers : " +(num1*10));
+		System.out.println("division  of two numbers : " +(num1/5));
+		System.out.println("=================================");
+		
+	// Assignment operators
+		int a = 10;
+		System.out.println("A value is " + a);
+		 a += 20; // a=a+20;
+		 System.out.println("A value is " + a);
+		 a *= 30;
+		 System.out.println("A value is " + a);
+		 a /= 60;
+		 System.out.println("A value is " + a);
+		 System.out.println("=================================");
+		 // relational/comparison
+		 int x = 20;
+		 int y =40;
+		  
+		 System.out.println(x>y);
+		 System.out.println(x==y);
+		 System.out.println(x>10);
+		 System.out.println("=================================");
+		 
+		 //logical operators
+		 
+		 int a1 = 1;
+		 int b1 = 2;
+		 
+		 boolean res = a1==1 && a1<b1;
+		 System.out.println(res);
+		 
+		 boolean res1 = a1 > 5 || a1 == 1;
+		 System.out.println(res1);
+		 System.out.println(!true);
+		 System.out.println(!(20<5));
+		 System.out.println("=================================");
+		 // ternary operator
+		 
+		 int p=10;
+		 int q=12;
+		 int max = p>q ? p : q;
+		 System.out.println(max);
+		 
+		 
+		 
+	}
+
+}
+output
+Sum of two numbers : 55
+Difference of two numbers : -5
+multiplication of two numbers : 250
+division  of two numbers : 5
+=================================
+A value is 10
+A value is 30
+A value is 900
+A value is 15
+=================================
+false
+false
+true
+=================================
+true
+true
+false
+true
+=================================
+12
+
